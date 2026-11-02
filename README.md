@@ -2,7 +2,7 @@
 
 Python code for the study
 
-> Müftüoğlu, T.D. *Sampling uncertainty in key streamflow statistics as a function of record length: a multi-climate bootstrap study.* Water Resources Management (under review, manuscript WARM-D-26-02204).
+> Müftüoğlu, T.D. *Sampling uncertainty in key streamflow statistics as a function of record length: a multi-climate bootstrap study.* 
 
 The code quantifies how the sampling error of streamflow statistics computed from a short record decreases as the record becomes longer. Whole water years are resampled from long daily records to create synthetic records of 5–50 years. Each short-record estimate is compared with the full-record value, and the decay of the error with record length $`n`$ is described by the power law $`\mathrm{RMSE}(n) = \alpha\, n^{-\beta}`$. The results are applied to a catchment with a ten-year record (Çine Çayı, Turkey).
 
@@ -179,18 +179,7 @@ All analysis choices are collected in the settings block at the top of the scrip
 
 ## Citation
 
-If you use this code, please cite the paper (citation will be updated on publication) and the archived code version:
-
-> Müftüoğlu, T.D. (2026). Streamflow-Bootstrap-Uncertainty: code for "Sampling uncertainty in key streamflow statistics as a function of record length". Zenodo. https://doi.org/10.5281/zenodo.19830399
-
-## Key references for the methods
-
-- Beck, H.E., et al. (2018). Present and future Köppen-Geiger climate classification maps at 1-km resolution. *Scientific Data* 5, 180214. https://doi.org/10.1038/sdata.2018.214
-- Davison, A.C., Hinkley, D.V. (1997). *Bootstrap Methods and their Application*. Cambridge University Press. https://doi.org/10.1017/CBO9780511802843
-- Künsch, H.R. (1989). The jackknife and the bootstrap for general stationary observations. *Annals of Statistics* 17(3), 1217–1241. https://doi.org/10.1214/aos/1176347265
-- Ladson, A.R., Brown, R., Neal, B., Nathan, R. (2013). A standard approach to baseflow separation using the Lyne and Hollick filter. *Australasian Journal of Water Resources* 17(1), 25–34. https://doi.org/10.7158/13241583.2013.11465417
-- Politis, D.N., Romano, J.P. (1994). Large sample confidence regions based on subsamples under minimal assumptions. *Annals of Statistics* 22(4), 2031–2050. https://doi.org/10.1214/aos/1176325770
-- Stedinger, J.R., Vogel, R.M., Foufoula-Georgiou, E. (1993). Frequency analysis of extreme events. In: Maidment, D.R. (ed.) *Handbook of Hydrology*, Chapter 18. McGraw-Hill.
+If you use this code, please cite the paper with its most up to date version.
 
 ## Contact
 
